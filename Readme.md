@@ -1,14 +1,13 @@
 <h1 align="center">Comandos Git que utilizo no dia dia.</h1>
-<br>
 <h2>Iniciar Tarefa</h2>
 > git pull --rebase origin master
 <br>
-> git checkout -b "fb_nome_ramo"
+> git checkout -b "nome_branch"
 <br>
 <h2>Subir Alterações</h2>
 > git add .
 <br>
-> git commit -am "Mensagem do commit"
+> git commit -am "Mensagem do commit" ('-a' realizar o comando 'git add .' junto ao commit)
 <br>
 > git pull --rebase origin master
 <br>
@@ -34,7 +33,6 @@
 <br>
 <h2>Comentários:</h2>
 <h3>- Fazer pull sempre da master</h3>
-<br>
 > git pull --rebase origin master
 <br>
 <h3>- Criar branch sempre da master</h3>
