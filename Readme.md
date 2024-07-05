@@ -28,8 +28,8 @@ $ git pull --rebase origin nome_branch
 <br>
 <h2>Passar um commit apenas de um branch para outro</h2>
 <br>
-$ git stash (no branch que iniciou a alteração)
-$ git stash pop (no branch que você vai dar continuidade nas alteração)
+$ git stash (no branch que iniciou a alteração)<br>
+$ git stash pop (no branch que você vai dar continuidade nas alteração)<br>
 <h2>Em outros casos...</h2>
 $ git checkout branch_destino
 <br>
